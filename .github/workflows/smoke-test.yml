@@ -1,7 +1,6 @@
 name: Smoke Tests
 
 on:
-  workflow_dispatch:
   repository_dispatch:
     types: [trigger-smoke-tests]
 
